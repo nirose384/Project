@@ -1,0 +1,187 @@
+:root {
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-blue: #1565D8;
+    --second-yellow: #F9D100;
+    --third-blue: #36C3C5;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Vadodara';
+    scroll-behavior: smooth;
+    border-left: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  .head_container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  /*--------------header--------*/
+  header {
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .logo img {
+    width: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart{
+    margin-right: 40px;
+  }
+  
+  /*--------------header--------*/
+  /*--------------home--------*/
+  
+  .home .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 50%;
+  }
+  
+  
+  
+  /*--------------header--------*/
+  /*--------------home--------*/
+  
+  .home .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -S1;
+    width: 100%;
+    height: 40%;
+  }
+  
+
+.all-content{
+    margin-top: 18%;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.head-title{
+    display: flex;
+}
+
+.fas .fa-star{
+    margin-top: 50%;
+    margin-left: 15px;
+}
+
+
+.col-4{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.col-4 td{
+    padding-left: 10%;
+}
+
+.row .col-6{
+    margin-top: 10px;
+}
+
+.row-info{
+    margin-top: 40px;
+}
+
+.ref-num{
+    margin-top: 10px;
+}
+/*total price*/
+
+.total-price{
+    margin-bottom: 3%;
+}
+
+.col-12{
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
+.col-12 button{
+    margin-left: 15px;
+}
+
+.payment-info{
+    display: flex;
+}
+
+.price-show{
+    margin-left: -150px;
+    margin-top: -20px;
+    }
+    
+    .price-show p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: line-through 1.5px;
+    }
+    .price-show h3{
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ff0000;
+    font-weight: 600;
+    }
+    
+    .total-price{
+    margin-left: 6%;
+    width: 90%;
+    }
+    
+    .total-price .price-show{
+    margin-left: 65%;
+    margin-top: 1%;
+    }
+
+    .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    }
+
+
+  .end_line{
+    border-top: 1px solid #696F79;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+    
+ 
+  /*Payment Confirmation*/
+    .Button_summit input{
+      margin-left: 40%;
+      padding: 15px 40px 15px 40px;
+      margin-top: 7%;
+      margin-bottom: 10%;
+      background-color: #1565D8;
+      width: 20%;
+      color: #fafafa;
+      font-size: large;
+    }

@@ -1,0 +1,169 @@
+:root {
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-blue: #1565D8;
+    --second-yellow: #F9D100;
+    --third-blue: #36C3C5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Vadodara';
+    scroll-behavior: smooth;
+    border-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+  
+  .head_container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  /*--------------header--------*/
+  header {
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .logo img {
+    width: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+.cart{
+    margin-right: 40px;
+}
+
+  /*--------------header--------*/
+/*--------------home--------*/
+
+.home .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40%;
+  }
+  
+  .book{
+      max-width: 80%;
+  }
+
+  /*--------------home--------*/
+  /*--------------list service--------*/
+
+  
+.container_offer {
+    max-width: 90%;
+    margin: auto;
+  }
+
+.collection{
+    margin-top: 18%;
+}
+
+  .flex_offer {
+    display: flex;
+  }
+
+  .flex1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .mtop {
+    margin-top: 17%;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading h5 {
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #CC8C18;
+    padding-top: 20px;
+  }
+
+
+  .heading h3 {
+    font-size: 30px;
+    color: #24416B;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+    .list_service{
+        max-width: 1560px;
+        margin-left: 7%;
+    }
+
+    .list_grid{
+        margin: 20px 0 0 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+        
+    }
+
+
+
+    .list_grid li {
+
+        display: inline-block;
+        margin:20px;
+    }
+
+    .list_box {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-top: 15px;
+
+    }
+
+    .list_box:hover{
+        transform: scale(1.05);
+    }
+
+    .list_box img{
+        width: 278px;
+        height: 364px;
+    }
+
+    list_grid .grid2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+      }
+    
+    .list_grid a{
+        color: #6B6B6B;
+        font-weight: 600;
+        font-size:larger;
+        
+    }
+
+    

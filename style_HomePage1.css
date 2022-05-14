@@ -1,0 +1,406 @@
+:root {
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-blue: #1565D8;
+    --second-yellow: #F9D100;
+    --third-blue: #36C3C5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Vadodara';
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }
+
+
+  
+  .head_container {
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  /*--------------header--------*/
+  header {
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .logo img {
+    width: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+.cart{
+    margin-right: 40px;
+}
+
+ 
+  /*--------------header--------*/
+/*--------------home--------*/
+
+.home .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .home .text {
+    max-width: 100%;
+    color: white;
+    margin: 20% 25% 0% 25%;
+  }
+  
+  .book{
+      max-width: 80%;
+  }
+  
+  .home h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .home p {
+    font-weight: 400;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  /*--------------home--------*/
+  /*--------------book--------*/
+  .flex {
+    display: flex;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 6.5%;
+    grid-gap: 30px;
+  }
+  
+  .book {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 100%;
+    height: 20vh;
+    color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+    
+  }
+  
+  .book .input {
+    background: #ffffff;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0px 4px 15px rgb(112, 112, 112);
+  }
+  
+  .book .search {
+    background: var(--third-blue);
+    padding: 20px;
+        box-shadow: 0px 4px 15px rgb(112, 112, 112);
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    background: #fafafa;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .book .search {
+    width: 20%;
+  }
+
+  .search input{
+      color: #fff;
+  }
+  
+  .book .search input {
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+
+  /*------------timer------------*/
+/*------------offer------------*/
+
+.container_offer {
+    max-width: 90%;
+    margin: auto;
+  }
+
+.collection{
+    margin-top: 18%;
+}
+
+  .flex_offer {
+    display: flex;
+  }
+
+  .flex1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 6.5%;
+    grid-gap: 30px;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
+  button {
+    background: var(--second-yellow);
+    color: white;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  .booking_room_button{
+      margin-left: 38%;
+      margin-top: 5%;
+  }
+
+  button i {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  
+  button span {
+    margin-top: 5px;
+  }
+
+  .mtop {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .heading h5 {
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #CC8C18;
+    padding-top: 20px;
+  }
+
+  .left, .right {
+    width: 50%;
+  }
+
+
+  .heading h3 {
+    font-size: 30px;
+    color: #24416B;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  p {
+    line-height: 30px;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+.offer img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .offer .right {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+  }
+  
+  .offer .content h4 {
+    font-size: 20px;
+    color: #6B6B6B;
+  }
+  
+  .offer .rate i {
+    font-size: 13px;
+    color: var(--second-yellow);
+    margin: 10px 10px 20px 0;
+  }
+  
+  .offer .box {
+    transition: 0.5s;
+  }
+  
+  .offer .box:hover {
+    transform: translateY(-10px);
+  }
+
+
+  /*------------wrapper------------*/
+.wrapper {
+    background-image: url("../image/w.jpg");
+    height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .wrapper .container {
+    max-width: 50%;
+    margin: auto;
+  }
+  
+  .wrapper .item {
+    background: white;
+    padding: 50px;
+    margin-top: 15%;
+    border: 30px solid #F3F3F3;
+    border-bottom: none;
+  }
+  
+  .wrapper .heading {
+    text-align: left;
+  }
+  
+  .owl-nav .owl-next,
+  .owl-nav .owl-prev {
+    height: 47px;
+    position: absolute;
+    top: 60%;
+    width: 26px;
+    cursor: pointer;
+    background: none !important;
+  }
+  
+  .owl-nav .owl-prev {
+    left: 0;
+  }
+  
+  .owl-nav .owl-next {
+    right: 53px;
+  }
+  
+  .owl-nav .owl-next i,
+  .owl-nav .owl-prev i {
+    background: white;
+    padding: 7px;
+    border-radius: 50%;
+    color: #CC8C18;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+  }
+  
+  .owl-nav .owl-next i:hover,
+  .owl-nav .owl-prev i:hover {
+    background: #CC8C18;
+    color: white;
+  }
+  
+  /*------------wrapper------------*/
+  /*------------wrapper2------------*/
+  .wrapper2 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .wrapper2 .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .wrapper2 .box {
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 5%);
+    padding: 20px;
+    transition: 0.5s;
+  }
+  
+  .wrapper2 i {
+    margin: 10px 0 15px 0;
+    color: var(--third-blue);
+    font-size: 30px;
+  }
+  
+  .wrapper2 h3 {
+    font-size: 30px;
+  }
+  
+ .box h4{
+    font-size: 16px;
+    color: #6B6B6B;
+  }
+  .wrapper2 span {
+    padding: 10px;
+    background: #BEF6F6;
+    color: var(--third-blue);
+    border-radius: 50%;
+  }
+  
+  .wrapper2 .box:hover {
+    background: var(--third-blue);
+    cursor: pointer;
+  }
+  
+  .wrapper2 .box:hover span {
+    background: #fff;
+  }
+  
+  .wrapper2 .box:hover p,
+  .wrapper2 .box:hover h3,
+  .wrapper2 .box:hover i {
+    color: white;
+  }
+  
+  .wrapper2::after {
+    content: '';
+    position: absolute;
+    top: -22%;
+    left: 0;
+    background-image: url("../image/line1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 100%;
+    z-index: 2;
+  }
+  
+
+  
+
